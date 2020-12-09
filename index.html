@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<!-- Connecting stylesheet -->
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__logo">
+						<img src="img/planet .svg" alt="planet">
+						<div>c0nv3rter</div>
+					</div>
+					<img src="img/ques.svg" alt="question" class="header__question">
+				</div>
+			</div>
+		</header>
+
+		<div class="modal">
+			<div class="modal__offer">c0nv3rter</div>
+			<div class="modal__version">version 0.0.1</div>
+			<div class="modal__author">by qweu</div>
+		</div>
+
+		<main class="main" id="main">
+			<div class="container">
+				<div class="main__body">
+
+					<a class="main__item" data-fancybox data-src="#volume" href="javascript:;">
+						<img src="img/cube .svg" alt="phisics">
+						<div>Объем</div>
+					</a>
+
+					<div class="main__item">
+						<img src="img/strong.svg" alt="phisics">
+						<div>Сила</div>
+					</div>
+
+					<div class="main__item">
+						<img src="img/speed.svg" alt="phisics">
+						<div>Cкорость</div>
+					</div>
+
+					<div class="main__item">
+						<img src="img/geo.svg" alt="phisics">
+						<div>Путь</div>
+					</div>
+
+					<div class="main__item">
+						<img src="img/time.svg" alt="phisics">
+						<div>Время</div>
+					</div>
+
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<!-- popups -->
+	<div class="popup" id="volume">
+		<h2 class="popup__offer">Объем</h2>
+		<div class="popup__inputs">
+			<input placeholder="1 сторона" type="number" class="popup__input" id="volume-one">
+			<input placeholder="2 сторона" type="number" class="popup__input" id="volume-two">
+			<input placeholder="3 сторона" type="number" class="popup__input" id="volume-three">
+		</div>
+		<button class="popup__btn" id="volume-btn">НАЙТИ ОТВЕТ</button>
+	</div>
+	<!-- /popups -->
+
+	<!-- Connecting scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/work.js"></script>
+</body>
+
+</html>
